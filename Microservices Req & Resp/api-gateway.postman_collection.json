@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "07a5c294-4f54-4ac5-afad-09f10e9dad6c",
+		"name": "api-gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37442632"
+	},
+	"item": [
+		{
+			"name": "getQuiz",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

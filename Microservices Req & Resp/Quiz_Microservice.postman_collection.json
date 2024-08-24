@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "701a4475-9f72-476c-8436-951bf84ff46e",
+		"name": "Quiz_Microservice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37442632"
+	},
+	"item": [
+		{
+			"name": "createQuiz",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/quiz/create?category=Java&noOfQuestions=5&title=JQuiz",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"quiz",
+						"create"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "Java"
+						},
+						{
+							"key": "noOfQuestions",
+							"value": "5"
+						},
+						{
+							"key": "title",
+							"value": "JQuiz"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getQuiz",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "submitQuiz",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
